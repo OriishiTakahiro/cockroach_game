@@ -40,12 +40,15 @@ public class CockroachController : MonoBehaviour {
 		float y_rot = Input.GetAxis("Mouse X");
 		float x_rot = Input.GetAxis("Mouse Y");
 
-		Quaternion tmp_x_rot = sight.transform.rotation * Quaternion.Euler(x_rot * -1, 0, 0);
+		Quaternion tmp_x_rot = sight.transform.localRotation * Quaternion.Euler(x_rot * -1, 0, 0);
 		if(CAM_ROT_LIMIT > Quaternion.Angle(INITIAL_ROT, Quaternion.Euler(tmp_x_rot.eulerAngles.x, 0, 0))) {
-			sight.transform.rotation = tmp_x_rot;
+			sight.transform.localRotation = tmp_x_rot;
 		}
-		transform.rotation *= Quaternion.Euler(0, y_rot, 0);
+		transform.localRotation *= Quaternion.Euler(0, y_rot, 0);
+	}
 
+	public void changeGravityDir(Vector3 dir) {
+		Physics.gravity = -9.8f * dir;
 	}
 
 }
