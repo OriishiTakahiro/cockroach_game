@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: e3718fe15983c4b5088cde9527ce74e9
+timeCreated: 1473157704
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BezierCurve
+    100002: Camera
+    100004: //RootNode
+    100006: Cube.001
+    100008: Lamp
+    100010: Sphere
+    100012: Sphere.001
+    100014: Sphere.002
+    100016: Sphere.003
+    100018: Sphere.004
+    100020: Sphere.005
+    100022: Sphere.006
+    100024: Sphere.007
+    100026: Sphere.008
+    100028: Sphere.009
+    100030: Sphere.010
+    100032: Sphere.011
+    100034: Sphere.012
+    100036: Sphere.013
+    100038: Sphere.014
+    100040: Sphere.015
+    100042: Sun
+    400000: BezierCurve
+    400002: Camera
+    400004: //RootNode
+    400006: Cube.001
+    400008: Lamp
+    400010: Sphere
+    400012: Sphere.001
+    400014: Sphere.002
+    400016: Sphere.003
+    400018: Sphere.004
+    400020: Sphere.005
+    400022: Sphere.006
+    400024: Sphere.007
+    400026: Sphere.008
+    400028: Sphere.009
+    400030: Sphere.010
+    400032: Sphere.011
+    400034: Sphere.012
+    400036: Sphere.013
+    400038: Sphere.014
+    400040: Sphere.015
+    400042: Sun
+    2300000: BezierCurve
+    2300002: Cube.001
+    2300004: Sphere
+    2300006: Sphere.001
+    2300008: Sphere.002
+    2300010: Sphere.003
+    2300012: Sphere.004
+    2300014: Sphere.005
+    2300016: Sphere.006
+    2300018: Sphere.007
+    2300020: Sphere.008
+    2300022: Sphere.009
+    2300024: Sphere.010
+    2300026: Sphere.011
+    2300028: Sphere.012
+    2300030: Sphere.013
+    2300032: Sphere.014
+    2300034: Sphere.015
+    3300000: BezierCurve
+    3300002: Cube.001
+    3300004: Sphere
+    3300006: Sphere.001
+    3300008: Sphere.002
+    3300010: Sphere.003
+    3300012: Sphere.004
+    3300014: Sphere.005
+    3300016: Sphere.006
+    3300018: Sphere.007
+    3300020: Sphere.008
+    3300022: Sphere.009
+    3300024: Sphere.010
+    3300026: Sphere.011
+    3300028: Sphere.012
+    3300030: Sphere.013
+    3300032: Sphere.014
+    3300034: Sphere.015
+    4300000: BezierCurve
+    4300002: Sphere.015
+    4300004: Sphere.014
+    4300006: Sphere.013
+    4300008: Sphere.012
+    4300010: Sphere.011
+    4300012: Sphere.010
+    4300014: Sphere.009
+    4300016: Sphere.007
+    4300018: Sphere.006
+    4300020: Sphere.004
+    4300022: Sphere.003
+    4300024: Sphere.002
+    4300026: Sphere.001
+    4300028: Sphere
+    4300030: Cube.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
