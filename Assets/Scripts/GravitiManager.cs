@@ -8,9 +8,12 @@ public class GravitiManager : MonoBehaviour {
 
 	private Transform cock_trans;
 
+	private CockroachController instance;
+
 	// Use this for initialization
 	void Start () {
 		cock_trans = cockroach.transform;
+		instance = cockroach.GetComponent<CockroachController>();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +26,10 @@ public class GravitiManager : MonoBehaviour {
 		cock_trans.rotation *= Quaternion.AngleAxis(-90, local_right);
 
 		// 重力方向の変更
-		cockroach.GetComponent<CockroachController>().changeGravityDir(cock_trans.up.normalized);
+		instance.changeGravityDir(cock_trans.up.normalized);
+
+		Debug.Log("enter");
 
 	}
+
 }
