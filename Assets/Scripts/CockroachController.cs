@@ -48,7 +48,7 @@ public class CockroachController : MonoBehaviour {
 	}
 
 	public void changeGravityDir(Vector3 dir) {
-		Physics.gravity = -9.8f * dir;
+		Physics.gravity = -98.0f * dir;
 	}
 
 }
