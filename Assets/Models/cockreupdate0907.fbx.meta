@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 54137f9d724934e448a0d6eaf37bb9d4
+timeCreated: 1473251451
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BezierCurve
+    100002: Camera
+    100004: //RootNode
+    100006: Cube.001
+    100008: Cylinder
+    100010: Cylinder.001
+    100012: Lamp
+    100014: Sphere
+    100016: Sphere.001
+    100018: Sphere.002
+    100020: Sphere.003
+    100022: Sphere.004
+    100024: Sphere.005
+    100026: Sphere.006
+    100028: Sphere.007
+    100030: Sphere.008
+    100032: Sphere.009
+    100034: Sphere.010
+    100036: Sphere.011
+    100038: Sphere.012
+    100040: Sphere.013
+    100042: Sphere.014
+    100044: Sphere.015
+    100046: Sun
+    400000: BezierCurve
+    400002: Camera
+    400004: //RootNode
+    400006: Cube.001
+    400008: Cylinder
+    400010: Cylinder.001
+    400012: Lamp
+    400014: Sphere
+    400016: Sphere.001
+    400018: Sphere.002
+    400020: Sphere.003
+    400022: Sphere.004
+    400024: Sphere.005
+    400026: Sphere.006
+    400028: Sphere.007
+    400030: Sphere.008
+    400032: Sphere.009
+    400034: Sphere.010
+    400036: Sphere.011
+    400038: Sphere.012
+    400040: Sphere.013
+    400042: Sphere.014
+    400044: Sphere.015
+    400046: Sun
+    2300000: BezierCurve
+    2300002: Cube.001
+    2300004: Cylinder
+    2300006: Cylinder.001
+    2300008: Sphere
+    2300010: Sphere.001
+    2300012: Sphere.002
+    2300014: Sphere.003
+    2300016: Sphere.004
+    2300018: Sphere.005
+    2300020: Sphere.006
+    2300022: Sphere.007
+    2300024: Sphere.008
+    2300026: Sphere.009
+    2300028: Sphere.010
+    2300030: Sphere.011
+    2300032: Sphere.012
+    2300034: Sphere.013
+    2300036: Sphere.014
+    2300038: Sphere.015
+    3300000: BezierCurve
+    3300002: Cube.001
+    3300004: Cylinder
+    3300006: Cylinder.001
+    3300008: Sphere
+    3300010: Sphere.001
+    3300012: Sphere.002
+    3300014: Sphere.003
+    3300016: Sphere.004
+    3300018: Sphere.005
+    3300020: Sphere.006
+    3300022: Sphere.007
+    3300024: Sphere.008
+    3300026: Sphere.009
+    3300028: Sphere.010
+    3300030: Sphere.011
+    3300032: Sphere.012
+    3300034: Sphere.013
+    3300036: Sphere.014
+    3300038: Sphere.015
+    4300000: Cylinder.001
+    4300002: Cylinder
+    4300004: BezierCurve
+    4300006: Sphere.015
+    4300008: Sphere.014
+    4300010: Sphere.013
+    4300012: Sphere.012
+    4300014: Sphere.011
+    4300016: Sphere.010
+    4300018: Sphere.009
+    4300020: Sphere.007
+    4300022: Sphere.006
+    4300024: Sphere.004
+    4300026: Sphere.003
+    4300028: Sphere.002
+    4300030: Sphere.001
+    4300032: Sphere
+    4300034: Cube.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
