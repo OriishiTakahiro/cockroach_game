@@ -39,9 +39,20 @@ public class CockroachController : MonoBehaviour {
 		if(auto_running) {
 			auto_run_dat = new Queue<AutoDat>();
 			auto_run_dat.Enqueue(new AutoDat(1f, 0.5f ,2));
-			auto_run_dat.Enqueue(new AutoDat(0, 0, 3));
-			auto_run_dat.Enqueue(new AutoDat(0, 2f, 2));
+			auto_run_dat.Enqueue(new AutoDat(0, 0, 1));
+			auto_run_dat.Enqueue(new AutoDat(0, 2.0f, 2));
 			auto_run_dat.Enqueue(new AutoDat(1.2f, 1f, 2));
+			auto_run_dat.Enqueue(new AutoDat(1.2f, 1.5f, 3));
+			auto_run_dat.Enqueue(new AutoDat(1.0f, 1.4f, 2));
+			auto_run_dat.Enqueue(new AutoDat(0f, 0, 1));
+			auto_run_dat.Enqueue(new AutoDat(1.1f, 1.4f, 4));
+			auto_run_dat.Enqueue(new AutoDat(-1.0f, 0f, 4));
+			auto_run_dat.Enqueue(new AutoDat(-1.0f, 2.0f, 2));
+			auto_run_dat.Enqueue(new AutoDat(0, 0, 3));
+			auto_run_dat.Enqueue(new AutoDat(-1.0f, 0f, 1));
+			auto_run_dat.Enqueue(new AutoDat(-1.0f, 0.5f, 1));
+			auto_run_dat.Enqueue(new AutoDat(0f, 1.0f, 3));
+			auto_run_dat.Enqueue(new AutoDat(-2.0f, 1.5f, 3));
 			Debug.Log(auto_run_dat.Count);
 			StartCoroutine("AutoRun");
 		}
@@ -73,8 +84,9 @@ public class CockroachController : MonoBehaviour {
 		Quaternion tmp_x_rot = sight.transform.localRotation * Quaternion.Euler(x_rot * -1, 0, 0);
 		if(CAM_ROT_LIMIT > Quaternion.Angle(INITIAL_ROT, Quaternion.Euler(tmp_x_rot.eulerAngles.x, 0, 0))) {
 			sight.transform.localRotation = tmp_x_rot;
+			if(auto_running) sight.transform.localRotation *= Quaternion.Euler(0, y_rot, 0);
 		}
-		transform.localRotation *= Quaternion.Euler(0, y_rot, 0);
+		if(!auto_running) transform.localRotation *= Quaternion.Euler(0, y_rot, 0);
 	}
 
 	public void changeGravityDir(Vector3 dir) {
